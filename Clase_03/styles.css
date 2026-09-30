@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  /*   box-sizing: border-box; */
+}
+
+p {
+  color: brown !important;
+}
+
+p {
+  color: blue;
+}
+
+.body {
+  background-color: darkkhaki;
+}
+/* reservado para Javascript */
+
+#parrafo {
+  color: chocolate;
+}
+
+.parrafo {
+  color: blueviolet;
+  font-size: 20px;
+  background-color: beige;
+}
+
+/* UNIDADES DE MEDIDA */
+
+/* ABSOLUTAS */
+
+/*
+px (píxeles): Unidad más usada para tamaños fijos.
+cm (centímetros): Útil para imprimir contenido.
+mm (milímetros): Similar a cm pero más pequeño.
+pt (puntos): Se usa en tipografía para impresión.
+ */
+
+/* RELATIVAS */
+
+/*
+- em: Basada en el tamaño de la fuente del elemento padre.
+      Ejemplo: Si el font-size del padre es 16px, entonces 1em = 16px.
+- rem (root em): Basada en el tamaño de la fuente del elemento raíz (html).
+                 Más consistente que em
+- % (porcentaje): Basada en el tamaño del contenedor padre.
+- vw (viewport width): Basada en el ancho de la ventana:
+                     1vw = 1% del ancho del viewport.
+- vh (viewport height): Basada en la altura de la ventana.
+                      1vh = 1% de la altura del viewport
+ */
+/*
+ html {
+  font-size: 16px;
+}  
+*/
+
+/* .subtitulo {
+  font-size: 24px;
+}
+ */
+.subtitulo {
+  font-size: 2rem;
+}
+
+.descripcion {
+  font-size: 18px;
+}
+
+/* em */
+
+/* .contenedor {
+  font-size: 32px;
+}
+
+.h4 {
+  font-size: 0.5em;
+} */
+
+.caja {
+  width: 500px;
+  background-color: cornflowerblue;
+  padding: 1rem;
+  border: 1px solid gray;
+  margin-top: 3rem;
+}
