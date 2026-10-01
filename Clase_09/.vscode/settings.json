@@ -1,0 +1,7 @@
+{
+  "[html]": { "editor.formatOnSave": false },
+  "[css]": {
+    "editor.formatOnSave": false
+  },
+  "liveServer.settings.port": 5501
+}
