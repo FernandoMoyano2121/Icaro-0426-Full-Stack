@@ -42,7 +42,7 @@ for (let clave in persona) {
 console.log(Object.keys(persona));
 console.log(Object.values(persona));
 
-/* -------------------------------------------- */
+/* ----------------------APP TAREAS---------------------- */
 
 let tareas = [
   {
