@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .div {
+      background-color: antiquewhite;
+      width: 200px;
+      height: 200px;
+      margin-top: 3rem;
+    }
+    .resultado {
+      background-color: beige;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ecommerce */
+    .contenedorProductos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+    }
+    /* --- Estilos de la tarjeta --- */
+    .producto {
+      width: 200px;
+      padding: 15px;
+      border-radius: 12px;
+      background: #f4f4f4;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+      text-align: center;
+      font-family: Arial;
+      margin-bottom: 20px;
+    }
+
+    .producto img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    .producto button {
+      background: #3498db;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .producto button:hover {
+      background: #2178b5;
+    }
+
+    /* --- Estilo lista --- */
+    #listaCompras {
+      margin-top: 20px;
+      font-family: Arial;
+      font-size: 1.1em;
+      padding-left: 0;
+    }
+
+    #listaCompras li {
+      list-style: none;
+      padding: 6px 10px;
+      background: #e8f0fe;
+      margin-bottom: 5px;
+      border-radius: 6px;
+    }
+  </style>
+  <body>
+    <!-- <button onclick="alert('Click!!')">click</button>
+    -->
+    <br />
+    <br />
+
+    <!------------- EVENTO CLICK--------------->
+
+    <button id="button">Saludo</button>
+
+    <!------------- EVENTO INPUT --------------->
+
+    <input id="input" type="text" />
+    <br />
+    <br />
+
+    <!-------------EVENTO MOUSEOVER ------------>
+
+    <div class="div" id="div">1</div>
+    <br /><br />
+
+    <!-------------EVENTO SUBMIT ------------>
+
+    <form id="miFormulario" action="">
+      <label for="nombre">
+        Nombre:
+        <input
+          id="nombre"
+          name="nombre"
+          placeholder="Luka"
+          type="text"
+          required
+        />
+      </label>
+      <br />
+      <label for="email">
+        Email:
+        <input
+          id="email"
+          name="email"
+          placeholder="luka@gmail.com"
+          type="email"
+          required
+        />
+      </label>
+      <button type="submit">Enviar</button>
+    </form>
+
+    <!--  <div id="resultado"></div> -->
+
+    <div id="resultado">
+      <div id="dataNombre"></div>
+      <div id="dataEmail"></div>
+    </div>
+
+    <!------------------- E-COMMERCE ---------------->
+    <div id="contenedorProductos" class="contenedorProductos">
+      <!-- tarjetas de productos -->
+    </div>
+
+    <!-- carrito de compras -->
+    <h3>Carrito de compras</h3>
+    <ul id="listaCompras"></ul>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
