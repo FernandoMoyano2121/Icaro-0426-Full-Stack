@@ -1,0 +1,9 @@
+.parrafo {
+  height: 200px;
+  background-color: bisque;
+  display: inline-block;
+  margin: 1rem;
+}
+.contenedor {
+  display: flex;
+}
