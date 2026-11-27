@@ -6,7 +6,7 @@ vencimiento - string
 completada - boolean
 */
 
-export class Tarea {
+export class Task {
   constructor(id, nombre, prioridad, vencimiento, completada = false) {
     this.id = id;
     this.nombre = nombre;
